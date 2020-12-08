@@ -20,7 +20,7 @@ export class AuFaInputComponent implements OnInit {
     };
 
     if (this.icon) {
-      cssClasses['fa-'+this.icon] = true;
+      cssClasses['fa-' + this.icon] = true;
     }
 
     return cssClasses;
